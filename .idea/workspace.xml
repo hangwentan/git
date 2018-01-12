@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2b5b6df-b519-490c-a5b0-c6fcb6bf2f08" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/app-icon72x72@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/examples/admin-chrome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/examples/admin-firefox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/examples/admin-ie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/examples/admin-opera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/examples/admin-safari.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/examples/adminPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/examples/blogPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/examples/landing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/examples/landingPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/examples/loginPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/examples/sidebarPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/i/startup-640x1096.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/basic/images/chongzhi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/basic/images/ibar_sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/basic/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/basic/images/no-img_mid_.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/basic/images/wdsc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/basic/images/weixin_code_145.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/-0-saturn_solar.jpg_220x220.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/0-item_pic.jpg_220x220.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/01_mid.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/01_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/02_mid.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/02_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/03_mid.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/03_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/1-item_pic.jpg_220x220.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/111.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/1_160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/2016.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/222.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/333.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/3CoOkxrFOP.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/556.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/557.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/559.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/566.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/566fda5cN4b8a1675.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/62988.jpg_80x80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/65.jpg_120x120xz.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/666.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/72h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/88.jpg_120x120xz.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/Balance.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/BxJk6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/EZA27501.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/Hxcag60.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/T13iv.XiFdXXa94Hfd-32-32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/TB102.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/TB1SSK7JpXXXXXCXXXXXXXXXXXX-800-600.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/TB1_pic.jpg_200x200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/TJ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/TJ2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/YXARdXxj5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/act1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/act2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/act3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/activity.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/activity1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/activity2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/activity3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/ad1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/ad2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/ad3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/ad4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/ad5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/ad6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/ad7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/ad8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/addbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/addicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/addicon1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/addicon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/advTip.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/bamboo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/bamboo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/bankjh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/bankns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/blog01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/blog02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/blog03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/blog04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/blog05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/blog06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/blog07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/blog08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/blog09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/bonus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/browse1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/cake.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/cake.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/candy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/candy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/cardbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/cardbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/cardtype.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/checkbox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/chocolate.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/chocolate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/chongzhi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/clockbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/combo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/combo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/combo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/combo3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/comment.jpg_400x400.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/cookies.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/cookies.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/coupon-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/coupon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/coupon2015.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/coupon20150805.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/couponli.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/cp.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/cp2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/day-to.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/extra.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/fish.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/fish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/getAvatar.do.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/gift_intro_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/gift_stamp_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/gift_stamp_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/gift_stamp_21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/gift_stamp_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/gift_stamp_31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/header-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/header-bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/heart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/huismall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/hwbn40x40.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/ibar_sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/icon-sale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/icon_bar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/icon_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/icon_progress_24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/iconbig.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/iconfont-bad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/iconfont-badon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/iconfont-evaluate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/iconfont-good.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/iconfont-middle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/iconsmall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/iconsmall0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/iconsmall1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/iconsmall2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/iconsmall3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/imgBox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/imgsearch1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/index_ico_png32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/item-pic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/kouhong.jpg_80x80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/kuaidi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/list1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/listsmall1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/logo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/logobig.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/logobig1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/logobig2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/mansmall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/meat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/meat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/moneysmall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/mygift_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/navce.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/navsmall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/no-img_mid_.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/nut.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/nut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/package.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/package.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/pay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/peraddbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/peraddress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/peraddressbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/pig.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/profit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/receive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/refund.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/return-process-cd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/row1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/row2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/row3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/row4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/safe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/safe_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/sale-t.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/sale-t_clock.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/sale1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/sale2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/sale3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/scoll1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/scoll2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/send.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/shopping.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/side.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/songzi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/sys_item_selected.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/tea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/tea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/tj.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/tj1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/tj2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/tw1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/tw2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/tw3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/tw4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/tw5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/tw6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/tw7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/u5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/u6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/wallet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/wangyin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/wdsc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/weixin_code_145.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/weizhifu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/youzi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/zhifubao.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/images/图标.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/._font" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/font/._adminthemes-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/font/._adminthemes-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/font/._adminthemes-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/font/._adminthemes-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/font/adminthemes-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/font/adminthemes-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/font/adminthemes-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/font/adminthemes-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/._admin_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/._icon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/admin_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/icon/._DefaultAvatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/icon/._apple-touch-icon-120x120-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/icon/._apple-touch-icon-196x196-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/icon/._apple-touch-icon-57x57-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/icon/._favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/icon/DefaultAvatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/icon/apple-touch-icon-120x120-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/icon/apple-touch-icon-196x196-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/icon/apple-touch-icon-57x57-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/images/icon/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/._font" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/font/._adminthemes-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/font/._adminthemes-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/font/._adminthemes-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/font/._adminthemes-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/font/adminthemes-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/font/adminthemes-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/font/adminthemes-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/font/adminthemes-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/common/components/BaseController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/common/service/UploadServices.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/common/service/Urlservice.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/controllers/IndexController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/controllers/LoginController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/views/index/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/views/index/information.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/views/layouts/menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/views/login/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/css/admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/css/amazeui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/css/amazeui.flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/css/amazeui.flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/css/amazeui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/js/amazeui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/js/amazeui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/js/handlebars.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/AmazeUI-2.4.2/assets/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/basic/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/basic/js/jquery-1.7.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/basic/js/jquery-1.9.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/basic/js/quick_links.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/addstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/appstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/bilstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/blogstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/blstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/bostyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/cartstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/cmstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/colstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/cpstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/dlstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/footstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/hmstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/infstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/jsstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/lostyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/newstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/optstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/orstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/personal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/point.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/refstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/seastyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/skin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/sortstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/stepstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/sustyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/vipstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/wallet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/address.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/jquery.flexslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/jquery.imagezoom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/._jquery.mCustomScrollbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/._style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/font/._adminthemes-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/font/adminthemes-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/jquery.mCustomScrollbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/._Particleground.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/._html5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/._jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/._jquery.mCustomScrollbar.concat.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/._jquery.mCustomScrollbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/._style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/._verificationNumbers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/Particleground.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/font/._adminthemes-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/font/adminthemes-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/html5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/jquery.mCustomScrollbar.concat.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/jquery.mCustomScrollbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/reg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/login/js/verificationNumbers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/config/main-local.php" afterPath="$PROJECT_DIR$/common/config/main-local.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tt.txt" afterPath="$PROJECT_DIR$/tt.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/views/login/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-893">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/controllers/LoginController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="7" />
+    <option name="y" value="43" />
+    <option name="width" value="1321" />
+    <option name="height" value="664" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="login" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="coverage" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\dell\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2b5b6df-b519-490c-a5b0-c6fcb6bf2f08" name="Default" comment="" />
+      <created>1515735977443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515735977443</updated>
+      <workItem from="1515735979003" duration="185000" />
+      <workItem from="1515737038509" duration="624000" />
+      <workItem from="1515757648456" duration="342000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1151000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27862597" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24923077" sideWeight="0.49914822" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828283" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24923077" sideWeight="0.5008518" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/backend/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/base/tests/data/app/controllers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/login/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/layouts/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
