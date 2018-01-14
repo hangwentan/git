@@ -75,6 +75,54 @@ small,weak{color:#666}
 .admin_login dd .submit_btn:hover{background:#0c9076;color:#f4f4f4;}
 .admin_login dd p{color:#53c6b0;font-size:12px;text-align:center;margin:5px 0;}
 
+
+
+.admin_reg{width:30%;height:auto;overflow:hidden;margin:10% auto 0 auto;padding:40px;box-shadow:0 -15px 30px #0d957a;border-radius:5px;}
+.admin_reg dt{font-size:20px;font-weight:bold;text-align:center;color:#45bda6;text-shadow:0 0 1px #0e947a;margin-bottom:15px;}
+.admin_reg dt strong{display:block;}
+.admin_reg dt em{display:block;font-size:12px;margin-top:8px;}
+.admin_reg dd{margin:5px 0;height:42px;overflow:hidden;position:relative;}
+.admin_reg dd .login_txtbx{font-size:14px;height:26px;line-height:26px;padding:8px 5%;width:40%;text-indent:2em;border:none;background:#5cbdaa;color:white;}
+.admin_reg dd .login_txtbx::-webkit-input-placeholder {color:#f4f4f4;line-height:inherit;}
+.admin_reg dd .login_txtbx:-moz-placeholder {color:#f4f4f4;line-height:inherit;}
+.admin_reg dd .login_txtbx::-moz-placeholder {color:#f4f4f4;line-height:inherit;}
+.admin_reg dd .login_txtbx:focus{background:#55b7a4;}
+.admin_reg dd:before{font-family:'adminthemesregular';position:absolute;top:0;left:10px;height:42px;line-height:42px;font-size:20px;color:#0c9076;}
+.admin_reg dd.user_icon:before{content:"u";}
+.admin_reg dd.pwd_icon:before{content:"p";}
+.admin_reg dd.val_icon:before{content:"n";}
+.admin_reg dd .ver_btn{text-align:right;border:none;color:#f4f4f4;height:42px;line-height:42px;margin:0;z-index:1;position:relative;float:right;background:#48bca5;}
+.admin_reg dd .checkcode{float:left;width:182px;height:42px;background:#fff}
+.admin_reg dd .checkcode input{width:90%;height:36px;line-height:36px;padding:3px;color:white;outline:none;border:none;text-indent:2.8em;}
+.admin_reg dd .checkcode canvas{width:20%;height:36px;padding:3px;z-index:0;background:#5cbdaa;}
+.admin_reg dd .submit_btn{align:center;width:70%;height:42px;border:none;font-size:16px;background:#048f74;color:#f8f8f8;}
+.admin_reg dd .submit_btn:hover{background:#0c9076;color:#f4f4f4;}
+.admin_reg dd p{color:#53c6b0;font-size:12px;text-align:center;margin:5px 0;}
+
+.admin_slip{width:30%;height:auto;overflow:hidden;margin:10% auto 0 auto;padding:40px;box-shadow:0 -15px 30px #0d957a;border-radius:5px;}
+.admin_slip dt{font-size:20px;font-weight:bold;text-align:center;color:#45bda6;text-shadow:0 0 1px #0e947a;margin-bottom:15px;}
+.admin_slip dt strong{display:block;}
+.admin_slip dt em{display:block;font-size:12px;margin-top:8px;}
+.admin_slip dd{margin:5px 0;height:42px;overflow:hidden;position:relative;}
+.admin_slip dd .login_txtbx{font-size:14px;height:26px;line-height:26px;padding:8px 5%;width:40%;text-indent:2em;border:none;background:#5cbdaa;color:white;}
+.admin_slip dd .login_txtbx::-webkit-input-placeholder {color:#f4f4f4;line-height:inherit;}
+.admin_slip dd .login_txtbx:-moz-placeholder {color:#f4f4f4;line-height:inherit;}
+.admin_slip dd .login_txtbx::-moz-placeholder {color:#f4f4f4;line-height:inherit;}
+.admin_slip dd .login_txtbx:focus{background:#55b7a4;}
+.admin_slip dd:before{font-family:'adminthemesregular';position:absolute;top:0;left:10px;height:42px;line-height:42px;font-size:20px;color:#0c9076;}
+.admin_slip dd.user_icon:before{content:"u";}
+.admin_slip dd.pwd_icon:before{content:"p";}
+.admin_slip dd.val_icon:before{content:"n";}
+.admin_slip dd .ver_btn{text-align:right;border:none;color:#f4f4f4;height:42px;line-height:42px;margin:0;z-index:1;position:relative;float:right;background:#48bca5;}
+.admin_slip dd .checkcode{float:left;width:182px;height:42px;background:#fff}
+.admin_slip dd .checkcode input{width:90%;height:36px;line-height:36px;padding:3px;color:white;outline:none;border:none;text-indent:2.8em;}
+.admin_slip dd .checkcode canvas{width:20%;height:36px;padding:3px;z-index:0;background:#5cbdaa;}
+.admin_slip dd .submit_btn{align:center;width:70%;height:42px;border:none;font-size:16px;background:#048f74;color:#f8f8f8;}
+.admin_slip dd .submit_btn:hover{background:#0c9076;color:#f4f4f4;}
+.admin_slip dd p{color:#53c6b0;font-size:12px;text-align:center;margin:5px 0;}
+
+
+
 /*header*/
 header{background:#19a97b;overflow:hidden;}
 header h1{margin:0;float:left;margin-left:1%;}

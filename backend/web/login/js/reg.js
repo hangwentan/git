@@ -8,13 +8,20 @@ function username() {
         $("div#regtip_username").show();
         return false;
     }
-    if(!reg.test(name)){
-        $("#regtip_username").children('.ret_tipm').html("用户名称限2~18位中文");
+    if(reg.test(name)){
+        // $.get('?r=login/reg',{name:name},function (msg) {
+        //     if(msg == '1') {
+                $("#regtip_username").children('.ret_tipm').html("√");
+                $("#regtip_username").show();return true;
+        //     } else {
+        //         $("#regtip_username").children('.ret_tipm').html("用户存在");
+        //         $("#regtip_username").show();return true;
+        //     }
+        // })
+    } else {
+        $("#regtip_username").children('.ret_tipm').html("用户名称限中文");
         $("#regtip_username").show();
         return false;
-    } else {
-        $("#regtip_username").children('.ret_tipm').html("√");
-        $("#regtip_username").show();return true;
     }
 
 }
@@ -66,12 +73,32 @@ function submit() {
     var pwd = $('input[name=password]').val();
     var inputCode = document.getElementById("J_codetext").value.toUpperCase();
     var codeToUp=code.toUpperCase();
-    if(inputCode!=codeToUp)return false;
-    $.get('/ragster',{'name':name,'pwd':pwd},function(msg) {
+    if(inputCode!=codeToUp) return false;
+    $.post('index.php?r=login/login',{'name':name,'pwd':pwd},function(msg) {
         if(msg==1){
-            window.location.href='/user/index';
-        } else {
-            alert('登录失败')
+            window.location.href='?r=index/index';
         }
-    })
+    });
+}
+
+function reg() {
+    var name = $('.admin_reg').html();
+    $('.admin_slip').html(name);
+}
+function login() {
+    var name = $('.admin_login').html();
+    $('.admin_slip').html(name);
+}
+
+function ragester() {
+    if (!checkUserInput()){
+        return false;
+    }
+    var name = $('input[name=username]').val();
+    var pwd = $('input[name=password]').val();
+    $.post('index.php?r=login/reg',{'name':name,'pwd':pwd},function(msg) {
+        if(msg==1){
+            window.location.href='?r=login/login';
+        }
+    });
 }
