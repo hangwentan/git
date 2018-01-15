@@ -19,10 +19,13 @@
     <script src="login/js/jquery.js"></script>
     <script src="login/js/verificationNumbers.js"></script>
     <script src="login/js/Particleground.js"></script>
-    <script src="login/js/reg.js"></script>
     <script>
 
         $(document).ready(function() {
+            var name = $('.admin_login').html();
+            $('.admin_slip').html(name);
+            $('.admin_reg').hide();
+            $('.admin_login').hide();
             $("div.reg_tip").hide();
             //粒子背景特效
             $('body').particleground({
@@ -39,6 +42,38 @@
     </script>
 </head>
 <body>
+<dl class="admin_slip"></dl>
+<!--------------- 注册栏---------------->
+<dl class="admin_reg">
+    <dt>
+        <strong>站点后台注册系统</strong>
+        <em>Management System</em>
+    </dt>
+    <dd class="user_icon">
+        <input type="text" name="username" placeholder="注册账号" id="regname" class="login_txtbx" onblur="username()"/>
+        <div id="regtip_username" class="reg_tip">
+            <div class="ret_tipm">用户名不可为空</div>
+        </div>
+    </dd>
+    <dd class="pwd_icon">
+        <input type="password" name="password" placeholder="创建密码" class="login_txtbx" onblur="password()"/>
+        <div id="regtip_pwd" class="reg_tip">
+            <div class="ret_tipm">密码不可为空</div>
+        </div>
+    </dd>
+    <dd>
+        <input onclick="ragester()" type="button" value="注册" class="submit_btn"/>
+    </dd>
+    <dd>
+        <input onclick="login()" type="button" value="返回登陆" class="submit_btn"/>
+    </dd>
+    <dd>
+        <p>© 2015-2016 DeathGhost 版权所有</p>
+        <p>陕B2-20080224-1</p>
+    </dd>
+</dl>
+
+<!---------------登录----------------------------->
 <dl class="admin_login">
     <dt>
         <strong>站点后台管理系统</strong>
@@ -67,15 +102,16 @@
         <input onclick="submit()" type="button" value="立即登陆" class="submit_btn"/>
     </dd>
     <dd>
-        <input id="ragester" type="button" value="注册" class="submit_btn"/>
+        <input onclick="reg()" type="button" value="注册" class="submit_btn"/>
     </dd>
     <dd>
         <p>© 2015-2016 DeathGhost 版权所有</p>
         <p>陕B2-20080224-1</p>
     </dd>
 </dl>
-</body>
-<script>
 
+</body>
+<script src="login/js/reg.js"></script>
+<script>
 </script>
 </html>

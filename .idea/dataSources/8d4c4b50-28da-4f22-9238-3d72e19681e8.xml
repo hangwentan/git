@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="shop@123.56.17.198">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="shop">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="08d10"/>
+    <schema id="4" parent="1" name="08D4"/>
+    <schema id="5" parent="1" name="08d7"/>
+    <schema id="6" parent="1" name="08d9"/>
+    <schema id="7" parent="1" name="db_mysql"/>
+    <schema id="8" parent="1" name="feifei"/>
+    <schema id="9" parent="1" name="information_schema"/>
+    <schema id="10" parent="1" name="lei"/>
+    <schema id="11" parent="1" name="music"/>
+    <schema id="12" parent="1" name="mysql"/>
+    <schema id="13" parent="1" name="performance_schema"/>
+    <schema id="14" parent="1" name="test"/>
+    <table id="15" parent="2" name="open_info"/>
+    <table id="16" parent="2" name="shop_address"/>
+    <table id="17" parent="2" name="shop_admin_user"/>
+    <table id="18" parent="2" name="shop_my_information"/>
+    <table id="19" parent="2" name="user"/>
+    <column id="20" parent="15" name="id">
+      <Position>1</Position>
+      <Comment>微信登录id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="21" parent="15" name="open_id">
+      <Position>2</Position>
+      <Comment>第三方登录的open_id</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="15" name="user_id">
+      <Position>3</Position>
+      <Comment>网站用户ID</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="15" name="nickname">
+      <Position>4</Position>
+      <Comment>第三方用户昵称</Comment>
+      <DataType>varchar(300)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="15" name="type">
+      <Position>5</Position>
+      <Comment>1：微博</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="25" parent="15" name="create_time">
+      <Position>6</Position>
+      <Comment>创建时间</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="26" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="27" parent="16" name="address_id">
+      <Position>1</Position>
+      <Comment>地址管理</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="28" parent="16" name="address_name">
+      <Position>2</Position>
+      <Comment>收货人</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="16" name="address_phone">
+      <Position>3</Position>
+      <Comment>收货手机号</Comment>
+      <DataType>varchar(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="16" name="province">
+      <Position>4</Position>
+      <Comment>所在地省</Comment>
+      <DataType>smallint(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="16" name="city">
+      <Position>5</Position>
+      <Comment>所在地 市</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="16" name="district">
+      <Position>6</Position>
+      <Comment>所在地 区&amp;县</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="16" name="address">
+      <Position>7</Position>
+      <Comment>具体的收货地址</Comment>
+      <DataType>varchar(200)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="16" name="auto_checked">
+      <Position>8</Position>
+      <Comment>默认收货地址 0 不默认 1 默认</Comment>
+      <DataType>tinyint(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="35" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>address_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="36" parent="17" name="user_id">
+      <Position>1</Position>
+      <Comment>登录表  登录id</Comment>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="37" parent="17" name="username">
+      <Position>2</Position>
+      <Comment>用户名</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="17" name="password">
+      <Position>3</Position>
+      <Comment>密码</Comment>
+      <DataType>varchar(90)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="17" name="status">
+      <Position>4</Position>
+      <Comment>状态0 否 1是</Comment>
+      <DataType>smallint(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="17" name="lasttime">
+      <Position>5</Position>
+      <Comment>最后一次登录时间</Comment>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="17" name="token">
+      <Position>6</Position>
+      <Comment>tonken值 防止攻击</Comment>
+      <DataType>varchar(90)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="17" name="create_time">
+      <Position>7</Position>
+      <Comment>修改时间</Comment>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="43" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="44" parent="18" name="my_id">
+      <Position>1</Position>
+      <Comment>个人信息表</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="45" parent="18" name="nickname">
+      <Position>2</Position>
+      <Comment>昵称</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="18" name="name">
+      <Position>3</Position>
+      <Comment>姓名</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="18" name="sex">
+      <Position>4</Position>
+      <Comment>性别 1男2女0保密</Comment>
+      <DataType>tinyint(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="18" name="birthday">
+      <Position>5</Position>
+      <Comment>生日</Comment>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="18" name="phone">
+      <Position>6</Position>
+      <Comment>电话</Comment>
+      <DataType>varchar(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="18" name="email">
+      <Position>7</Position>
+      <Comment>电子邮件</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="18" name="savetime">
+      <Position>8</Position>
+      <Comment>修改时间</Comment>
+      <DataType>datetime|0</DataType>
+    </column>
+    <key id="52" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>my_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="53" parent="19" name="uid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="54" parent="19" name="user_id">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="19" name="username">
+      <Position>3</Position>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="19" name="password">
+      <Position>4</Position>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="57" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>uid</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

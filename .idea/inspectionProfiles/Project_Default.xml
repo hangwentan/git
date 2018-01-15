@@ -1,5 +1,10 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0" is_locked="false">
     <option name="myName" value="Project Default" />
+<<<<<<< HEAD
+=======
+    <inspection_tool class="Eslint" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSHint" enabled="true" level="ERROR" enabled_by_default="true" />
+>>>>>>> 7171975a2490d8000b331e1b3b8c5b890e193439
   </profile>
 </component>
