@@ -21,7 +21,7 @@ class IndexController  extends BaseController
     //个人信息
     public function actionInformation()
     {
-        return $this->render('information');
+        return $this->render('information.html');
     }
 
     //安全设置
@@ -110,8 +110,4 @@ class IndexController  extends BaseController
         return $this->render("introduction.html");
     }
 
-    public function actionTest()
-    {
-        return $this->render();
-    }
 }
