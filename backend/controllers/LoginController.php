@@ -45,6 +45,20 @@ class LoginController extends BaseController
         }
     }
 
+    /**
+
+    管理员退出
+     */
+    public function actionLoginOut()
+    {
+        //清除SESSION
+        $session = \yii::$app->session;
+        $session->remove('username');
+        $session->remove('token');
+        $session->destroy();
+        return $this->redirect(['login/login']);
+    }
+
     /*
      * 管理员注册
      * @author 韩文坛
