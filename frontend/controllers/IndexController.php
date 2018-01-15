@@ -12,19 +12,19 @@ use frontend\common\components\BaseController;
 
 class IndexController  extends BaseController
 {
-     //首页
-     public function actionIndex()
-     {
-         return $this->render('index');
-     }
+    //首页
+    public function actionIndex()
+    {
+        return $this->render('index');
+    }
 
-     //个人信息
-     public function actionInformation()
-     {
-         return $this->render('information');
-     }
+    //个人信息
+    public function actionInformation()
+    {
+        return $this->render('information');
+    }
 
-     //安全设置
+    //安全设置
     public function actionSafety()
     {
         return $this->render('safety');
@@ -39,7 +39,7 @@ class IndexController  extends BaseController
     //快捷支付
     public function actionCardlist()
     {
-         return $this->render('cardlist');
+        return $this->render('cardlist');
     }
 
     //修改登录密码
@@ -83,26 +83,35 @@ class IndexController  extends BaseController
     {
         return $this->render('cardmethod');
     }
+
     //账户余额
     public function actionWallet()
     {
         return $this->render('wallet');
     }
+
     //积分
     public function actionPointnew()
     {
         return $this->render('pointnew');
     }
-    public function actionHome ()
+
+    public function actionHome()
     {
-    	return $this->render("home3.html");
+        return $this->render("home3.html");
     }
+
     /**
      * 商品详情
      * @return view
      */
-    public function actionIntroduction ()
+    public function actionIntroduction()
     {
-    	return $this->render("introduction.html");
+        return $this->render("introduction.html");
+    }
+
+    public function actionTest()
+    {
+        return $this->render();
     }
 }
