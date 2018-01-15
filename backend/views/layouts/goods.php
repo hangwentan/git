@@ -58,40 +58,27 @@ $user = $session->get('username');
     <ul>
         <li>
             <dl>
-                <dt>商品信息</dt>
+                <dt>商品管理</dt>
                 <!--当前链接则添加class:active-->
-                <dd><a href="/goods/list" class="active">商品列表</a></dd>
-                <dd><a href="/goods/type">商品分类</a></dd>
-                <dd><a href="/goods/add">商品添加</a></dd>
+                <dd><a href="?r=goods/list" class="active">商品列表</a></dd>
+                <dd><a href="?r=goods/add">商品添加</a></dd>
             </dl>
         </li>
         <li>
             <dl>
-                <dt>订单信息</dt>
-                <dd><a href="#">订单列表</a></dd>
-                <dd><a href="#">添加订单</a></dd>
-                <dd><a href="#">缺货登记</a></dd>
+                <dt>商品分类</dt>
+                <dd><a href="#">分类列表</a></dd>
+                <dd><a href="#">添加分类</a></dd>
             </dl>
         </li>
         <li>
             <dl>
                 <dt>品牌管理</dt>
+                <dd><a href="#">品牌分类</a></dd>
                 <dd><a href="#">品牌列表</a></dd>
-                <dd><a href="#">品牌添加</a></dd>
             </dl>
         </li>
-        <li>
-            <dl>
-                <dt>基础设置</dt>
-                <dd><a href="#">站点基础设置</a></dd>
-                <dd><a href="#">SEO设置</a></dd>
-                <dd><a href="#">SQL语句查询</a></dd>
-                <dd><a href="#">模板管理</a></dd>
-            </dl>
-        </li>
-        <li>
-            <p class="btm_infor">© 望唐集团 版权所有</p>
-        </li>
+
     </ul>
 </aside>
 
@@ -178,6 +165,21 @@ $user = $session->get('username');
             </div>
         </section>
         <!--结束：弹出框效果-->
+        <style>
+            .link_btn{
+
+                margin-left: 50px;
+            }
+        </style>
+        <section>
+            <a href="?r=goods/index"><input type="button" value="商品" class="link_btn"/></a>
+            <a href="?r=svip/index"><input type="button" value="会员" class="link_btn"/></a>
+            <a href="?r=order/index"><input type="button" value="订单" class="link_btn"/></a>
+            <a href="?r=goods/index"><input type="button" value="营销" class="link_btn"/></a>
+            <a href="?r=goods/index"><input type="button" value="统计" class="link_btn"/></a>
+            <a href="?r=goods/index"><input type="button" value="系统" class="link_btn"/></a>
+
+        </section>
 
         <?php echo $content?>
 

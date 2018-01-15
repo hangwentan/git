@@ -20,7 +20,7 @@ class IndexController extends BaseController
      */
     public function actionIndex()
     {
-        $this->layout = 'menu';
+        $this->layout = 'goods';
         return $this->render('index');
     }
 }

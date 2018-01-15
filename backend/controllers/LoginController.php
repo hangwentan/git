@@ -37,6 +37,7 @@ class LoginController extends BaseController
                 $session = \Yii::$app->session;
                 $session->set('username',$name);
                 $session->set('token',$admin['token']);
+                $session->set('id',$admin['user_id']);
                 echo 1;
             }
         }
@@ -51,6 +52,7 @@ class LoginController extends BaseController
      */
     public function actionLoginOut()
     {
+        \Yii::$app->user->identity->id;
         //清除SESSION
         $session = \yii::$app->session;
         $session->remove('username');
