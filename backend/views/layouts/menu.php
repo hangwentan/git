@@ -51,9 +51,9 @@
 
 
 <?php
-//$session=Yii::$app->session;
-//$username=$session->get('username');
-//if(empty($username)) {
-//    echo "<script>alert('亲，请登录');location.href='?r=login/login'</script>";
-//}
+$session=Yii::$app->session;
+$username=$session->get('username');
+if(empty($username)) {
+    echo "<script>alert('亲，请登录');location.href='?r=login/login'</script>";
+}
 ?>

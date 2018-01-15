@@ -34,6 +34,9 @@ class LoginController extends BaseController
                                   ->where(['password'=>$password])
                                   ->asArray()->one();
             if ($admin) {
+                $session = \Yii::$app->session;
+                $session->set('username',$name);
+                $session->set('token',$admin['token']);
                 echo 1;
             }
         }
