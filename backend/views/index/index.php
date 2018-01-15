@@ -26,27 +26,27 @@
 								<!--个人信息 -->
 
 								<div class="m-userinfo">
-									<a href="news.html">
+									<a href="?r=service/news">
 										<div class="tipsBox"><i class="am-icon-envelope"></i></div>
 									</a>
 									<div class="m-baseinfo">
-										<a class="m-pic" href="information.html">
+										<a class="m-pic" href="?r=index/information">
 											<img src="images/getAvatar.do.jpg">
 										</a>
 										<div class="m-info">
 											<em class="s-name">小叮当</em>
 											<div class="vip1"><a href="#"><span></span><em>会员专享</em></a></div>
-											<div class="safeText"><a href="safety.html">账户安全:<em style="margin-left:20px ;">60</em>分</a>
+											<div class="safeText"><a href="?r=index/safety">账户安全:<em style="margin-left:20px ;">60</em>分</a>
 												<div class="progressBar"><span style="left: -95px;" class="progress"></span></div>
 											</div>
 											<div class="m-address">
-												<a href="address.html" class="i-trigger">收货地址<i class="am-icon-angle-right" style="padding-left:5px ;"></i></a>
+												<a href="?r=index/address" class="i-trigger">收货地址<i class="am-icon-angle-right" style="padding-left:5px ;"></i></a>
 											</div>
 										</div>
 									</div>
 									<div class="m-right">
 										<div class="m-new">
-											<a href="news.html"><i class="am-icon-dropbox  am-icon-md" style="padding-right:5px ;"></i>消息盒子</a>
+											<a href="?r=service/news"><i class="am-icon-dropbox  am-icon-md" style="padding-right:5px ;"></i>消息盒子</a>
 										</div>
 
 									</div>
@@ -58,19 +58,19 @@
 										<i class="s-icon"></i>个人资产
 									</div>
 									<p class="m-coupon">
-										<a href="coupon.html">
+										<a href="?r=property/coupon">
 											<em class="m-num">2</em>
 											<span class="m-title">优惠券</span>
 										</a>
 									</p>
 									<p class="m-wallet">
-										<a href="wallet.html">
+										<a href="?r=index/wallet">
 											<em class="m-num">0.00</em>
 											<span class="m-title">账户余额</span>
 										</a>
 									</p>
 									<p class="m-bill">
-										<a href="pointnew.html">
+										<a href="?r=index/pointnew">
 											<em class="m-num">10</em>
 											<span class="m-title">总积分</span>
 										</a>
@@ -109,24 +109,24 @@
 							<div class="m-order">
 								<div class="s-bar">
 									<i class="s-icon"></i>我的订单
-									<a class="i-load-more-item-shadow" href="order.html">全部订单</a>
+									<a class="i-load-more-item-shadow" href="?r=deal/order">全部订单</a>
 								</div>
 								<ul>
-									<li><a href="order.html"><i><img src="images/pay.png"/></i><span>待付款</span></a></li>
-									<li><a href="order.html"><i><img src="images/send.png"/></i><span>待发货<em class="m-num">1</em></span></a></li>
-									<li><a href="order.html"><i><img src="images/receive.png"/></i><span>待收货</span></a></li>
-									<li><a href="order.html"><i><img src="images/comment.png"/></i><span>待评价<em class="m-num">3</em></span></a></li>
-									<li><a href="change.html"><i><img src="images/refund.png"/></i><span>退换货</span></a></li>
+									<li><a href="?r=deal/order"><i><img src="images/pay.png"/></i><span>待付款</span></a></li>
+									<li><a href="?r=deal/order"><i><img src="images/send.png"/></i><span>待发货<em class="m-num">1</em></span></a></li>
+									<li><a href="?r=deal/order"><i><img src="images/receive.png"/></i><span>待收货</span></a></li>
+									<li><a href="?r=deal/order"><i><img src="images/comment.png"/></i><span>待评价<em class="m-num">3</em></span></a></li>
+									<li><a href="?r=deal/change"><i><img src="images/refund.png"/></i><span>退换货</span></a></li>
 								</ul>
 								<div class="orderContentBox">
 									<div class="orderContent">
 										<div class="orderContentpic">
 											<div class="imgBox">
-												<a href="orderinfo.html"><img src="images/youzi.jpg"></a>
+												<a href="?r=deal/orderinfo"><img src="images/youzi.jpg"></a>
 											</div>
 										</div>
 										<div class="detailContent">
-											<a href="orderinfo.html" class="delivery">签收</a>
+											<a href="?r=deal/orderinfo" class="delivery">签收</a>
 											<div class="orderID">
 												<span class="time">2016-03-09</span>
 												<span class="splitBorder">|</span>
@@ -147,11 +147,11 @@
 									<div class="orderContent">
 										<div class="orderContentpic">
 											<div class="imgBox">
-												<a href="orderinfo.html"><img src="images/heart.jpg"></a>
+												<a href="?r=deal/orderinfo"><img src="images/heart.jpg"></a>
 											</div>
 										</div>
 										<div class="detailContent">
-											<a href="orderinfo.html" class="delivery">派件</a>
+											<a href="?r=deal/orderinfo" class="delivery">派件</a>
 											<div class="orderID">
 												<span class="time">2016-03-09</span>
 												<span class="splitBorder">|</span>
@@ -174,17 +174,17 @@
 									<i class="s-icon"></i>我的常用
 								</div>
 								<ul>
-									<a href="order.html">
+									<a href="?r=deal/order">
 										<li class="am-u-sm-4"><i class="am-icon-truck am-icon-md"></i>
 											<p>物流查询</p>
 										</li>
 									</a>
-									<a href="collection.html">
+									<a href="?r=collect/collection">
 										<li class="am-u-sm-4"><i class="am-icon-heart am-icon-md"></i>
 											<p>我的收藏</p>
 										</li>
 									</a>
-									<a href="foot.html">
+									<a href="?r=collect/foot">
 										<li class="am-u-sm-4"><i class="am-icon-paw am-icon-md"></i>
 											<p>我的足迹</p>
 										</li>
@@ -194,12 +194,12 @@
 											<p>为你推荐</p>
 										</li>
 									</a>
-									<a href="blog.html">
+									<a href="?r=service/blog">
 										<li class="am-u-sm-4"><i class="am-icon-share-alt am-icon-md"></i>
 											<p>我的分享</p>
 										</li>
 									</a>
-									<a href="home/home2.html">
+									<a href="?r=index/index">
 										<li class="am-u-sm-4"><i class="am-icon-clock-o am-icon-md"></i>
 											<p>限时活动</p>
 										</li>
@@ -213,7 +213,7 @@
 									<i class="s-icon"></i>会员中心
 								</div>
 								<div class="s-bar">
-									<a href="suggest.html"><i class="s-icon"></i>意见反馈</a>
+									<a href="?r=service/suggest"><i class="s-icon"></i>意见反馈</a>
 								</div>
 							</div>
 
