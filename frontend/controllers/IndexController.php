@@ -8,7 +8,6 @@
 
 namespace frontend\controllers;
 
-
 use frontend\common\components\BaseController;
 
 class IndexController  extends BaseController
@@ -94,5 +93,16 @@ class IndexController  extends BaseController
     {
         return $this->render('pointnew');
     }
-
+    public function actionHome ()
+    {
+    	return $this->render("home3.html");
+    }
+    /**
+     * 商品详情
+     * @return view
+     */
+    public function actionIntroduction ()
+    {
+    	return $this->render("introduction.html");
+    }
 }
