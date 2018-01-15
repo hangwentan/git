@@ -1,9 +1,9 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: acer
- * Date: 2018/1/12
- * Time: 14:20
+ * User: 韩文坛
+ * Date: 2018/1/15
+ * Time: 12:36
  */
 
 namespace backend\controllers;
@@ -11,16 +11,16 @@ namespace backend\controllers;
 
 use backend\common\components\BaseController;
 
-class IndexController  extends BaseController
+class IndexController extends BaseController
 {
-     //首页
-     public function actionIndex()
-     {
-         return $this->render('index');
-     }
-     //个人信息
-     public function actionInformation()
-     {
-         return $this->render('information');
-     }
+
+    /*后台首页
+     * @author 韩文坛
+     * @time   2018.1.15
+     */
+    public function actionIndex()
+    {
+        $this->layout = 'menu';
+        return $this->render('index');
+    }
 }

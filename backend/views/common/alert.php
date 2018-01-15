@@ -1,0 +1,1 @@
+<script>alert('<?php echo $meg?>');location.href='<?php $url?>'</script>
