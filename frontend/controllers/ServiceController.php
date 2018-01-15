@@ -6,10 +6,10 @@
  * Time: 8:38
  */
 
-namespace backend\controllers;
+namespace frontend\controllers;
 
 
-use backend\common\components\BaseController;
+use frontend\common\components\BaseController;
 
 class ServiceController extends BaseController
 {
