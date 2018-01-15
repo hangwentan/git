@@ -14,6 +14,7 @@ use yii\web\Cookie;
 
 class BaseController extends Controller
 {
+//    public $layout = 'menu';
     public $enableCsrfValidation = false;
     public $layout=false;
     public function get($key,$value='')
