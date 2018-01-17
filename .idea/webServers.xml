@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5cb59a80-6b50-49ac-811c-46d485ec0b5e" name="sdk" url="http://123.56.17.198">
+        <fileTransfer host="123.56.17.198" port="22" rootFolder="/phpstudy/www/adrSDK" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

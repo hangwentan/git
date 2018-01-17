@@ -52,7 +52,6 @@ class LoginController extends BaseController
      */
     public function actionLoginOut()
     {
-        \Yii::$app->user->identity->id;
         //清除SESSION
         $session = \yii::$app->session;
         $session->remove('username');

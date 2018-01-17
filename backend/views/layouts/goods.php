@@ -60,22 +60,22 @@ $user = $session->get('username');
             <dl>
                 <dt>商品管理</dt>
                 <!--当前链接则添加class:active-->
-                <dd><a href="?r=goods/list" class="active">商品列表</a></dd>
+                <dd><a href="?r=goods/index" class="active">商品列表</a></dd>
                 <dd><a href="?r=goods/add">商品添加</a></dd>
             </dl>
         </li>
         <li>
             <dl>
                 <dt>商品分类</dt>
-                <dd><a href="#">分类列表</a></dd>
-                <dd><a href="#">添加分类</a></dd>
+                <dd><a href="?r=goods/ification">分类列表</a></dd>
+                <dd><a href="?r=goods/index">添加分类</a></dd>
             </dl>
         </li>
         <li>
             <dl>
                 <dt>品牌管理</dt>
-                <dd><a href="#">品牌分类</a></dd>
-                <dd><a href="#">品牌列表</a></dd>
+                <dd><a href="?r=goods/brand-index">品牌列表</a></dd>
+                <dd><a href="?r=goods/brand-list">品牌分类</a></dd>
             </dl>
         </li>
 
