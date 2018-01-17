@@ -6,26 +6,25 @@
     </div>
     <table class="table">
         <tr>
-            <th>项目1</th>
-            <th>项目2</th>
-            <th>项目3</th>
-            <th>项目4</th>
-            <th>项目5</th>
-            <th>项目6</th>
-            <th>项目7</th>
+            <th>商品名称</th>
+            <th>商品货号</th>
+            <th>商品类型</th>
+            <th>商品品牌</th>
+            <th>促销价格</th>
+            <th>商品价格</th>
+            <th>商品描述</th>
         </tr>
-        <tr>
-            <td style="width:265px;"><div class="cut_title ellipsis">265px宽·长标题字符串截取，仅适合单行截取，多行截取程序定义一下。</div></td>
-            <td>内容二</td>
-            <td>内容三</td>
-            <td>内容四</td>
-            <td>内容五</td>
-            <td>内容六</td>
-            <td>
-                <a href="#">表内链接</a>
-                <a href="#" class="inner_btn">表内按钮</a>
-            </td>
-        </tr>
+    <?php foreach($data as $val):?>
+             <tr style="height:100px;">
+                <td width='200px;'><?= $val['shop_name'];?></td>
+                <td width='200px;'><?= $val['shop_num'];?></td>
+                <td width='200px;'><?= $val['category_name'];?></td>
+                <td width='200px;'><?= $val['name'];?></td>
+                <td width='200px;'><?= $val['shop_cprice'];?>元</td>
+                <td width='200px;'><?= $val['shop_price']?>元</td>
+                <td width='200px;'><?= $val['shop_desc']?></td>
+            </tr>
+    <?php endforeach;?>
     </table>
     <aside class="paging">
         <a>第一页</a>

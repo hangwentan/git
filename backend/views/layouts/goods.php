@@ -60,7 +60,7 @@ $user = $session->get('username');
             <dl>
                 <dt>商品管理</dt>
                 <!--当前链接则添加class:active-->
-                <dd><a href="?r=goods/list" class="active">商品列表</a></dd>
+                <dd><a href="?r=goods/index" class="active">商品列表</a></dd>
                 <dd><a href="?r=goods/add">商品添加</a></dd>
             </dl>
         </li>
