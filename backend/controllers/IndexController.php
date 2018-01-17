@@ -11,7 +11,7 @@ namespace backend\controllers;
 
 use backend\common\components\BaseController;
 
-class IndexController extends BaseController
+class IndexController extends 	BaseController
 {
 
     /*后台首页

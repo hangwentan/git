@@ -44,7 +44,7 @@ $user = $session->get('username');
 <header>
     <h1><img src="login/images/admin_logo.png"/></h1>
     <ul class="rt_nav">
-        <li><h2><a href="javascript:0;"><?php if(empty($user)){echo '未登录';?><?php }else{echo $user;}?></a></h2></li>
+        <li><h2><a href="javascript:void(0);" ><?php if(empty($user)){echo '未登录';?><?php }else{echo $user;}?></a></h2></li>
         <li><a href="http://www.baidu.com" target="_blank" class="website_icon">站点首页</a></li>
         <li><a href="#" class="admin_icon">DeathGhost</a></li>
         <li><a href="#" class="set_icon">账号设置</a></li>

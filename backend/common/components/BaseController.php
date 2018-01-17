@@ -17,6 +17,7 @@ class BaseController extends Controller
 //    public $layout = 'menu';
     public $enableCsrfValidation = false;
     public $layout=false;
+    public $session_name = 'backend_session_info';
     public function get($key,$value='')
     {
         return Yii::$app->request->get($key,$value);
@@ -46,5 +47,13 @@ class BaseController extends Controller
     public function renderjs($meg,$url)
     {
         return $this->renderPartial('@app/views/common/alert',['meg'=>$meg,'url'=>$url]);
+    }
+        //设置session
+    public function setSession($key,$value){
+        Yii::$app->session[$key] = $value;
+    }
+     //获取session
+    public function getSession($key){
+        return Yii::$app->session[$key];
     }
 }

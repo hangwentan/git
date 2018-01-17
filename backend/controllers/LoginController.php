@@ -47,8 +47,7 @@ class LoginController extends BaseController
     }
 
     /**
-
-    管理员退出
+    *管理员退出
      */
     public function actionLoginOut()
     {
