@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace backend\models;
 
 use Yii;
 
@@ -58,4 +58,10 @@ class ShopBrand extends \yii\db\ActiveRecord
         return $this->find()->asArray()->all();
     }
 
+    /*
+     *获取品牌列表
+     */
+    public function shopBrand($id){
+        return $this->find()->where(['id'=>$id])->asArray()->one();
+    }
 }

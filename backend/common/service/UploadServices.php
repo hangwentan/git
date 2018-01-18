@@ -6,7 +6,7 @@
  * Time: 10:27
  */
 
-namespace app\common\service;
+namespace backend\common\service;
 
 
 class UploadServices {
@@ -50,13 +50,15 @@ class UploadServices {
         }
         $file_type=explode('.',$file_name);
         $type=end($file_type);
-        if(in_array($type,self::$allow_file_type)){
+//        echo $type;die;
+        if(!in_array($type,self::$allow_file_type)){
             return '文件类型不正确';
         }
         if(!array_key_exists($bucket,\Yii::$app->params['upload'])){
             return '存放目录不存在';
         }
-        $uploadfile_dir=dirname(\Yii::$app->vendorPath).'/web/'.\Yii::$app->params['upload'][$bucket];
+        $uploadfile_dir=dirname(\Yii::$app->vendorPath).'/backend/web/'.\Yii::$app->params['upload'][$bucket];
+//        echo $uploadfile_dir;die;
         if(!file_exists($uploadfile_dir)){
             mkdir($uploadfile_dir,0777);
             chmod($uploadfile_dir,0777);
@@ -69,10 +71,10 @@ class UploadServices {
             mkdir($p_date_path,0777);
             chmod($p_date_path,0777);
         }
-        $re=move_upload_file($file_path,$uploadfile_dir.'/'.$new_file_path);
+        $re=move_uploaded_file($file_path,$uploadfile_dir.'/'.$new_file_path);
         if(!$re){
             return '上传失败请重试';
         }
-        return $new_file_name;
+        return 'web/'.$new_file_path;
     }
 }

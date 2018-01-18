@@ -2,14 +2,14 @@
 
 namespace backend\controllers;
 
+use backend\common\service\UploadServices;
 use backend\common\components\BaseController;
 
-use backend\models\Brand;
 use backend\models\Brandcate;
 use Yii;
-use app\models\ShopGoods;
-use app\models\ShopCategory;
-use app\models\ShopBrand;
+use backend\models\ShopGoods;
+use backend\models\ShopCategory;
+use backend\models\ShopBrand;
 class GoodsController extends BaseController
 {  
 
@@ -79,7 +79,8 @@ class GoodsController extends BaseController
     public function actionBrandList()
     {
         $this->layout = 'goods';
-        $brandcate = Brandcate::find()->asArray()->all();
+        $brand = new Brandcate();
+        $brandcate = $brand->brandCate();
         return $this->render('brand-list',['brand'=>$brandcate]);
     }
 
@@ -91,11 +92,8 @@ class GoodsController extends BaseController
         $this->layout = 'goods';
         $brand = (new \yii\db\Query())
             ->from(['shop_brand T1'])
-            ->innerJoin('shop_brand_category T2','T2.goods_category_id=T1.category_ids')
+            ->innerJoin('shop_brand_category T2','T1.category_ids=T2.brand_id')
             ->all();
-//        $sql = 'SELECT * FROM shop_brand T1 INNER JOIN shop_brand_category T2 ON T1.category_ids=T2.goods_category_id';
-//        $brand = \Yii::$app->db->createCommand($sql)->queryAll();
-//        print_r($brand);die;
         return $this->render('brand-index',['brand'=>$brand]);
     }
 
@@ -111,12 +109,77 @@ class GoodsController extends BaseController
             $type = $this->post('type');
             $description = $this->post('description');
             $img = $_FILES['file'];
-            $file_type=['png','jpg','jpeg','gif'];
-//            if (!in_array($img['type']))
+            $res = UploadServices::upload_file($img['name'],$img['tmp_name'],'web');
+            if($res){
+                $brand = new ShopBrand();
+                $brand->name = $name;
+                $brand->logo = $res;
+                $brand->description = $description;
+                $brand->sort = $sort;
+                $brand->category_ids = $type;
+                $info = $brand->save();
+                if($info){
+                    return $this->redirect('?r=goods/brand-index');
+                }
+            }
         }
         if(\Yii::$app->request->isGet){
-            $brandcate = Brandcate::find()->asArray()->all();
+            $brand = new Brandcate();
+            $brandcate = $brand->brandCate();
             return $this->render('brand-list-add',['brandcata'=>$brandcate]);
+        }
+    }
+
+    /*品牌删除
+     *
+     */
+    public function actionBrandTypeDel(){
+        $id = $this->get('id');
+        if(empty($id)){
+           return false;
+        }
+        $brand = ShopBrand::findOne($id);
+        $brand->delete();
+        return $this->redirect('?r=goods/brand-index');
+    }
+
+    /*品牌修改
+     *
+     */
+    public function actionBrandTypeShow(){
+        $this->layout = 'goods';
+        if(\Yii::$app->request->isPost){
+            $id = $this->post('id');
+            $name = $this->post('brand');
+            $sort = $this->post('sort');
+            $type = $this->post('type');
+            $description = $this->post('description');
+            $img = $_FILES['file'];
+            $res = UploadServices::upload_file($img['name'],$img['tmp_name'],'web');
+            if($res){
+                $brand = ShopBrand::findOne($id);
+                $brand->name = $name;
+                $brand->logo = $res;
+                $brand->description = $description;
+                $brand->sort = $sort;
+                $brand->category_ids = $type;
+                $info = $brand->save();
+                if($info){
+                    return $this->redirect('?r=goods/brand-index');
+                }
+            }
+        }
+        if(\Yii::$app->request->isGet){
+            $id = $this->get('id');
+
+            $shopBrand = new ShopBrand();
+            $brand = $shopBrand->shopBrand($id);
+
+            $bran = new Brandcate();
+            $brandcategory = $bran->brandCateOne($brand['category_ids']);
+            $brandcate = $bran->brandCate();
+
+            return $this->render('brand-show',['brand'=>$brand,'category'=>$brandcategory,'brandcate'=>$brandcate]);
         }
     }
 
@@ -140,9 +203,11 @@ class GoodsController extends BaseController
             }
         }
         if(\Yii::$app->request->isGet){
-            $brandcate = Brandcate::find()->asArray()->all();
+            $brand = new Brandcate();
+            $brandcate = $brand->brandCate();
             return $this->render('brand-add',['brandcata'=>$brandcate]);
         }
     }
+
 }
 

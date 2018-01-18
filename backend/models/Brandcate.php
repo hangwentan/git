@@ -15,4 +15,18 @@ class Brandcate extends \yii\db\ActiveRecord
     public static function tableName(){
         return 'shop_brand_category';
     }
+
+    /*
+     *获取品牌分类列表
+     */
+    public function brandCate(){
+        return $this->find()->asArray()->all();
+    }
+
+    /*
+     * 获取单条品牌分类
+     */
+    public function brandCateOne($id){
+        return $this->find()->where(['brand_id'=>$id])->asArray()->one();
+    }
 }

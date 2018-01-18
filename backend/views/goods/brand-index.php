@@ -14,8 +14,8 @@
                 <td style="width:265px;"><div class="cut_title ellipsis"><?=$val['name']?></div></td>
                 <td style="width:265px;"><div class="cut_title ellipsis"><?=$val['brand_name']?></div></td>
                 <td><center>
-                        <a href="#">表内链接</a>
-                        <a href="#" class="inner_btn">表内按钮</a></center>
+                        <a href="?r=goods/brand-type-show&id=<?=$val['id']?>">查看</a>
+                        <a href="?r=goods/brand-type-del&id=<?=$val['id']?>" class="inner_btn">×</a></center>
                 </td>
             </tr>
         <?php }?>

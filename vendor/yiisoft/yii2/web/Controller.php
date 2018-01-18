@@ -31,7 +31,10 @@ class Controller extends \yii\base\Controller
      */
     public $actionParams = [];
 
-
+    public function dd($arr){
+        echo '<pre>';
+        print_r($arr);
+    }
     /**
      * Renders a view in response to an AJAX request.
      *
