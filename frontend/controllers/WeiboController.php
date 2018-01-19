@@ -44,7 +44,7 @@ class WeiboController extends Controller
 			    'type'=> '1',
 			    'create_time'=>date("Y-m-d H:i:s",time())
 		    ])->execute();
-	       return $this->redirect('?r=index/home');
+	       return $this->redirect('?r=index/index');
 	       // echo '授权完成,<a href="weibolist">进入你的微博列表页面</a><br />';
 		} else {
 		      return $this->redirect("?r=user/login");
