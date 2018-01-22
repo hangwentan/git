@@ -11,6 +11,7 @@ class OrderController extends BaseController
         $this->layout = 'order';
 
         return $this->render('order-list');
+
     }
 
 }
