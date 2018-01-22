@@ -8,10 +8,10 @@ use Yii;
 use backend\models\Brand;
 use backend\models\Brandcate;
 use yii\data\Pagination;
-use app\models\ShopGoods;
-use app\models\ShopCategory;
-use app\models\ShopBrand;
-use app\common\service\UploadServices;
+use backend\models\ShopGoods;
+use backend\models\ShopCategory;
+use backend\models\ShopBrand;
+use backend\common\service\UploadServices;
 class GoodsController extends BaseController
 {  
 
@@ -24,12 +24,6 @@ class GoodsController extends BaseController
         $this->layout = 'goods';
         $shop = new ShopGoods();
         $shopCount = $shop->find()->count();
-        // $data = (new \yii\db\Query())
-        //     ->from('shop_goods')
-        //     ->select(['shop_goods.*','shop_category.*','shop_brand.*'])
-        //     ->leftJoin('shop_category','shop_goods.shop_type=shop_category.id')
-        //     ->leftJoin('shop_brand','shop_goods.shop_pinpai=shop_brand.id')
-        //     ->all();
        $arr = $shop->find()->orderBy('shop_id desc');
        $pages = new Pagination([
             'totalCount' => $arr->count(),

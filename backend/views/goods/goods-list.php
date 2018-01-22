@@ -13,16 +13,30 @@
             <th>促销价格</th>
             <th>商品价格</th>
             <th>商品描述</th>
+            <th>商品图片</th>
         </tr>
     <?php foreach($mctheores as $val):?>
              <tr style="height:100px;">
                 <td width='200px;'><?= $val['shop_name'];?></td>
                 <td width='200px;'><?= $val['shop_num'];?></td>
-                <td width='200px;'><?= $val['shop_type'];?></td>
-                <td width='200px;'><?= $val['shop_pinpai'];?></td>
+                <td width='200px;'>
+                <?php 
+        $sql = "SELECT `category_name` FROM `shop_category` where `id` = $val[shop_type]";
+                  $commentNum = Yii::$app->db->createCommand($sql)->queryOne();
+                  echo $commentNum['category_name'];
+               ?>
+               </td>
+                <td width='200px;'>
+                <?php 
+        $sql = "SELECT `name` FROM `shop_brand` where `id` = $val[shop_pinpai]";
+                  $commentNum = Yii::$app->db->createCommand($sql)->queryOne();
+                  echo $commentNum['name'];
+               ?>   
+                </td>
                 <td width='200px;'><?= $val['shop_cprice'];?>元</td>
                 <td width='200px;'><?= $val['shop_price']?>元</td>
                 <td width='200px;'><?= $val['shop_desc']?></td>
+<td width="200px;"><img src="<?= $val['shop_img']?>" width="100" height="100" /></td>
             </tr>
     <?php endforeach;?>
     </table>

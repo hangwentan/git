@@ -6,7 +6,7 @@
  * Time: 10:27
  */
 
-namespace app\common\service;
+namespace backend\common\service;
 
 
 class UploadServices {
