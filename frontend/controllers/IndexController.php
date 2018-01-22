@@ -13,7 +13,7 @@ use frontend\common\components\BaseController;
 class IndexController  extends BaseController
 {
      //首页
-     public function actionIndex()
+     public function actionHome()
      {
          return $this->render('index');
      }
@@ -93,7 +93,7 @@ class IndexController  extends BaseController
     {
         return $this->render('pointnew');
     }
-    public function actionHome ()
+    public function actionIndex ()
     {
     	return $this->render("home3.html");
     }
