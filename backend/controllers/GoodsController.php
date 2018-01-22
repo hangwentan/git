@@ -24,12 +24,6 @@ class GoodsController extends BaseController
         $this->layout = 'goods';
         $shop = new ShopGoods();
         $shopCount = $shop->find()->count();
-        // $data = (new \yii\db\Query())
-        //     ->from('shop_goods')
-        //     ->select(['shop_goods.*','shop_category.*','shop_brand.*'])
-        //     ->leftJoin('shop_category','shop_goods.shop_type=shop_category.id')
-        //     ->leftJoin('shop_brand','shop_goods.shop_pinpai=shop_brand.id')
-        //     ->all();
        $arr = $shop->find()->orderBy('shop_id desc');
        $pages = new Pagination([
             'totalCount' => $arr->count(),
