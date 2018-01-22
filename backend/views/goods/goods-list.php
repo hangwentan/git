@@ -14,12 +14,12 @@
             <th>商品价格</th>
             <th>商品描述</th>
         </tr>
-    <?php foreach($data as $val):?>
+    <?php foreach($mctheores as $val):?>
              <tr style="height:100px;">
                 <td width='200px;'><?= $val['shop_name'];?></td>
                 <td width='200px;'><?= $val['shop_num'];?></td>
-                <td width='200px;'><?= $val['category_name'];?></td>
-                <td width='200px;'><?= $val['name'];?></td>
+                <td width='200px;'><?= $val['shop_type'];?></td>
+                <td width='200px;'><?= $val['shop_pinpai'];?></td>
                 <td width='200px;'><?= $val['shop_cprice'];?>元</td>
                 <td width='200px;'><?= $val['shop_price']?>元</td>
                 <td width='200px;'><?= $val['shop_desc']?></td>
@@ -27,12 +27,6 @@
     <?php endforeach;?>
     </table>
     <aside class="paging">
-        <a>第一页</a>
-        <a>1</a>
-        <a>2</a>
-        <a>3</a>
-        <a>…</a>
-        <a>1004</a>
-        <a>最后一页</a>
+  <?php include 'include/pages.php';?>
     </aside>
 </section>

@@ -10,11 +10,12 @@ use Yii;
  * @property integer $shop_id
  * @property string $shop_name
  * @property string $shop_num
- * @property string $shop_type
- * @property string $shop_pinpai
+ * @property integer $shop_type
+ * @property integer $shop_pinpai
  * @property string $shop_cprice
  * @property string $shop_desc
  * @property string $shop_price
+ * @property string $shop_img
  */
 class ShopGoods extends \yii\db\ActiveRecord
 {
@@ -32,11 +33,13 @@ class ShopGoods extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['shop_name', 'shop_num', 'shop_type', 'shop_pinpai', 'shop_cprice', 'shop_desc'], 'required'],
+            [['shop_name', 'shop_num', 'shop_type', 'shop_pinpai', 'shop_cprice', 'shop_desc', 'shop_price', 'shop_img'], 'required'],
+            [['shop_type', 'shop_pinpai'], 'integer'],
             [['shop_desc'], 'string'],
             [['shop_price'], 'number'],
-            [['shop_name', 'shop_num', 'shop_type', 'shop_pinpai'], 'string', 'max' => 20],
+            [['shop_name', 'shop_num'], 'string', 'max' => 20],
             [['shop_cprice'], 'string', 'max' => 50],
+            [['shop_img'], 'string', 'max' => 255],
         ];
     }
 
@@ -54,14 +57,38 @@ class ShopGoods extends \yii\db\ActiveRecord
             'shop_cprice' => 'Shop Cprice',
             'shop_desc' => 'Shop Desc',
             'shop_price' => 'Shop Price',
+            'shop_img' => 'Shop Img',
         ];
     }
 
-    /**
-     * 添加语句
-     */
-       public function addUser($data){
+            /*
+    * 添加用户
+    */
+        public function addUser($data){
             $this->setAttributes($data);
             return $this->save(false);
         }
+
+    /*
+* 查看所有用户
+*/
+    public function getRoles(){
+        return $this->find()->asArray()->all();
+    }
+    /*
+    * 删除会员
+    */
+    public function delMctheory($delid){
+        return $this->deleteAll("id in ($delid)");
+    }
+    //单条件查询
+    public function updates($delid){
+      return   $this->find()->where(['id' =>$delid])->one();
+
+    }
+    public function userSave($id,$data){
+        $User = $this->findOne($id);
+        $User->id =$id;
+        return $User->save(); // 等同于 $User->update();
+    }
 }
