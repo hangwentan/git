@@ -11,12 +11,7 @@ use backend\models\ShopGoods;
 use backend\models\ShopCategory;
 use backend\models\ShopBrand;
 use backend\models\Brand;
-//use backend\models\Brandcate;
 use yii\data\Pagination;
-//use app\models\ShopGoods;
-//use app\models\ShopCategory;
-//use app\models\ShopBrand;
-//use app\common\service\UploadServices;
 class GoodsController extends BaseController
 {  
 
