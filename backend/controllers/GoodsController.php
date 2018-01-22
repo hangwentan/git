@@ -6,6 +6,9 @@ use backend\common\service\UploadServices;
 use backend\common\components\BaseController;
 
 use backend\models\Brandcate;
+use backend\models\ShopAttr;
+use backend\models\ShopGoodsAttr;
+use backend\models\ShopImg;
 use Yii;
 use backend\models\ShopGoods;
 use backend\models\ShopCategory;
@@ -63,11 +66,26 @@ class GoodsController extends BaseController
      */
     public function actionShop(){
         $request=Yii::$app->request;
+        //商品详细数组
         $data=[];
+        //商品详细图片
         $img = $_FILES['shop_img'];
-
+        //商品图片组
+        $goods_img=$_FILES['goods_img'];
+        //商品图片组名称
+        $name = $goods_img['name'];
+        //商品图片组临时地址
+        $tmp_name = $goods_img['tmp_name'];
+        //商品规格名称
+        $attr = $request->post('attr');
+        //商品规格价格
+        $attr_price = $request->post('attr_price');
+        //商品规格参数
+        $attr_type = $request->post('attr_type');
+        //详细图片上传
         $res  = UploadServices::upload_file($img['name'],$img['tmp_name'],'web');
         if($res){
+            //商品详细添加
             $data['shop_name']=$request->post('shop_name','');
             $data['shop_num']=$request->post('shop_num','');
             $data['shop_type']=$request->post('shop_type','');
@@ -76,11 +94,47 @@ class GoodsController extends BaseController
             $data['shop_cprice']=$request->post('shop_cprice','');
             $data['shop_desc']=$request->post('shop_desc','');
             $data['shop_img']=$res;
-            // print_r($data);die;
             $goods = new ShopGoods();
             $re=$goods->addUser($data);
             if($re){
-                $this->redirect('index.php?r=goods/index');
+                //查询添加后商品id
+                $da = ShopGoods::find()
+                    ->where(['shop_name'=>$data['shop_name']])->asArray()->one();
+                //图片的数量
+                $imgcount = count($name);
+                for ($i=0;$i<$imgcount;$i++){
+                    $img_name = $name[$i];//图片名称
+                    $img_tmp = $tmp_name[$i];//图片临时路径
+                    //循环上传以及加入数据库
+                    $ress = UploadServices::upload_file($img_name,$img_tmp,'web');
+                    if ($ress){
+                        $photo = new ShopImg();
+                        $photo->goods_photo = $ress;
+                        $photo->goods_id = $da['shop_id'];
+                        $photo->save();
+                    }
+                }
+                //商品属性添加
+                $count = count($attr);
+                for($i=1;$i<=$count;$i++){
+                    $yanse = $attr[$i][0];//颜色
+                    $c = count($attr_type[$i]);
+                    for($j=0;$j<$c;$j++){
+                        $attr_type[$i][$j];//大小
+                        $attr_price[$i][$j];//价格
+//                        echo $yanse."-".$attr_type[$i][$j]."-".$attr_price[$i][$j];
+                        //循环添加规格入库
+                        $goods_attr = new ShopGoodsAttr();
+                        $goods_attr->goods_attr = $yanse;
+                        $goods_attr->attr_price = $attr_price[$i][$j];
+                        $goods_attr->goods_attribute = $attr_type[$i][$j];
+                        $goods_attr->goods_id = $da['shop_id'];
+                        $info = $goods_attr->save();
+                    }
+                }
+                if($info){
+                    $this->redirect('index.php?r=goods/index');
+                }
             }else{
                 $this->redirect('index.php?r=goods/add');
             }
