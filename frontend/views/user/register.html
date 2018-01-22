@@ -40,26 +40,26 @@
 										
 							   <div class="user-email">
 										<label for="email"><i class="am-icon-envelope-o"></i></label>
-										<input type="email" name="" id="email" placeholder="请输入邮箱账号">
+										<input type="email" name="email" id="email" placeholder="请输入邮箱账号">
                  </div>										
                  <div class="user-pass">
 								    <label for="password"><i class="am-icon-lock"></i></label>
-								    <input type="password" name="" id="password" placeholder="设置密码">
+								    <input type="password" name="password" id="password" placeholder="设置密码">
                  </div>										
                  <div class="user-pass">
 								    <label for="passwordRepeat"><i class="am-icon-lock"></i></label>
-								    <input type="password" name="" id="passwordRepeat" placeholder="确认密码">
+								    <input type="password" name="re_password" id="passwordRepeat" placeholder="确认密码">
                  </div>	
                  
                  </form>
                  
 								 <div class="login-links">
 										<label for="reader-me">
-											<input id="reader-me" type="checkbox"> 点击表示您同意商城《服务协议》
+											<input id="reader-me" class="checkme" type="checkbox" value="1"> 点击表示您同意商城《服务协议》
 										</label>
 							  	</div>
 										<div class="am-cf">
-											<input type="submit" name="" value="注册" class="am-btn am-btn-primary am-btn-sm am-fl">
+											<input type="button" name="" disabled value="注册" id="register_email" class="am-btn am-btn-primary am-btn-sm am-fl">
 										</div>
 
 								</div>
@@ -68,30 +68,30 @@
 									<form method="post">
                  <div class="user-phone">
 								    <label for="phone"><i class="am-icon-mobile-phone am-icon-md"></i></label>
-								    <input type="tel" name="" id="phone" placeholder="请输入手机号">
+								    <input type="tel" name="telphone" id="phone" placeholder="请输入手机号">
                  </div>																			
 										<div class="verification">
 											<label for="code"><i class="am-icon-code-fork"></i></label>
-											<input type="tel" name="" id="code" placeholder="请输入验证码">
-											<a class="btn" href="javascript:void(0);" onclick="sendMobileCode();" id="sendMobileCode">
-												<span id="dyMobileButton">获取</span></a>
+											<input type="tel" name="yzm" id="code" placeholder="请输入验证码">
+											<a class="btn" href="javascript:void(0);" id="sendMobileCode">
+												<span id="dyMobileButton"><?=$yzm?></span></a>
 										</div>
                  <div class="user-pass">
 								    <label for="password"><i class="am-icon-lock"></i></label>
-								    <input type="password" name="" id="password" placeholder="设置密码">
+								    <input type="password" name="tel_pwd" id="password" placeholder="设置密码">
                  </div>										
                  <div class="user-pass">
 								    <label for="passwordRepeat"><i class="am-icon-lock"></i></label>
-								    <input type="password" name="" id="passwordRepeat" placeholder="确认密码">
+								    <input type="password" name="re_tel_pwd" id="passwordRepeat" placeholder="确认密码">
                  </div>	
 									</form>
 								 <div class="login-links">
 										<label for="reader-me">
-											<input id="reader-me" type="checkbox"> 点击表示您同意商城《服务协议》
+											<input id="reader-me" class="checki" type="checkbox" value="1"> 点击表示您同意商城《服务协议》
 										</label>
 							  	</div>
 										<div class="am-cf">
-											<input type="submit" name="" value="注册" class="am-btn am-btn-primary am-btn-sm am-fl">
+											<input type="button" name="" value="注册" disabled id="register_tel" class="am-btn am-btn-primary am-btn-sm am-fl">
 										</div>
 								
 									<hr>
@@ -134,3 +134,125 @@
 	</body>
 
 </html>
+<script>
+	$('.checkme').click(function(){
+		var val=$('.checkme').attr('value');
+		if(val!=1){
+			$("#register_email").attr('disabled',true);
+			$('.checkme').attr('value',1);
+		}else{
+			$("#register_email").attr('disabled',false);
+			$('.checkme').attr('value',0);
+		}
+	})
+    $("#register_email").click(function(){
+    	var obj = $("input[name='email']").val(); //要验证的对象
+    	var password=$("input[name='password']").val();
+    	var re_password=$("input[name='re_password']").val();
+    	if(obj!=""){
+    	    if(/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/.test(obj) == false){
+    		 alert('邮箱格式不正确');
+    		 return false;
+    	  }
+    	}else{
+    		alert('请输入邮箱');
+    		return false;
+    	}
+    	if(/^[a-zA-Z0-9]{4,10}$/.test(password)==false){
+    		alert('密码不能含有非法字符，长度在4-10之间');
+    		return false;
+    	}
+    	if(password!=re_password){
+    		alert('密码与确认密码不一致');
+    		return false;
+    	}
+    	$.ajax({
+    		url:'?r=user/register_email',
+    		data:{'obj':obj,'password':password},
+    		type:'post',
+    		success:function(e){
+    			if(e=='success'){
+    				alert('注册成功');
+    			}else if(e=='error'){
+    				alert('注册失败');
+    			}else if(e=='user error'){
+    				alert('不能重复提交哦');
+    				return false;
+    			}
+    		}
+    	})
+    })
+
+
+
+    $('#sendMobileCode').click(function(){
+    	$.ajax({
+    		url:'?r=user/yzm',
+    		success:function(yzm){
+    			$('#dyMobileButton').text(yzm);
+    		}
+    	})
+    })
+
+    $('.checki').click(function(){
+		var val=$('.checki').attr('value');
+		if(val!=1){
+			$("#register_tel").attr('disabled',true);
+			$('.checki').attr('value',1);
+		}else{
+			$("#register_tel").attr('disabled',false);
+			$('.checki').attr('value',0);
+		}
+	})
+	$('#register_tel').click(function(){
+		var telphone=$("input[name='telphone']").val();
+	    var yzm=$("input[name='yzm']").val();
+	    var tel_pwd=$("input[name='tel_pwd']").val();
+	    var re_tel_pwd=$("input[name='re_tel_pwd']").val();
+	    if(/^((13[0-9])|(14[0-9])|(15[0-9])|(17[0-9])|(18[0-9]))[0-9]{8}$/.test(telphone)===false){
+	    	alert("手机号输入不合法");
+		    return false;
+	    }
+	    if(/^[a-zA-Z0-9]{4,10}$/.test(tel_pwd)==false){
+			alert('密码不能含有非法字符，长度在4-10之间');
+			return false;
+	    }
+		if(tel_pwd!=re_tel_pwd){
+			alert('密码与确认密码不一致');
+			return false;
+		}
+		if(yzm==""){
+			alert('请输入验证码');
+			return false;
+		}else{
+			$.ajax({
+				url:"?r=user/yz",
+				type:"post",
+				data:{'yzm':yzm},
+				success:function(code){
+					if(code==0){
+						alert('验证码错误');
+						return false;
+					}else{
+						$.ajax({
+				    		url:'?r=user/register_tel',
+				    		data:{'telphone':telphone,'tel_pwd':tel_pwd},
+				    		type:'post',
+				    		success:function(e){
+				    			if(e=='success'){
+				    				alert('注册成功');
+				    			}else if(e=='error'){
+				    				alert('注册失败');
+				    			}else if(e=='user error'){
+				    				alert('不能重复提交哦');
+				    				return false;
+				    			}
+				    		}
+				    	})
+					}
+				}
+			})
+		}
+		
+	})
+</script>
