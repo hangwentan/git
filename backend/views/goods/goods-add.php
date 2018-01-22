@@ -1,7 +1,7 @@
 
 <section>
     <h2><strong style="color:grey;">分列内容布局</strong></h2>
-    <form action="index.php?r=goods/shop" method="post">
+    <form action="index.php?r=goods/shop" method="post" enctype="multipart/form-data">
     <ul class="ulColumn2">
         <li>
             <span class="item_name" style="width:120px;">商品名称：</span>
@@ -44,13 +44,13 @@
             <span class="item_name" style="width:120px;">商品描述：</span>
             <textarea placeholder="摘要信息"  name="shop_desc" class="textarea" style="width:500px;height:100px;"></textarea>
         </li>
-<!--         <li>
+        <li>
             <span class="item_name" style="width:120px;">上传图片：</span>
             <label class="uploadImg">
-                <input type="file"/>
+                <input type="file" name="shop_img" />
                 <span>上传图片</span>
             </label>
-        </li> -->
+        </li>
         <li>
             <span class="item_name" style="width:120px;"></span>
             <input type="submit" class="link_btn" value="添加" />

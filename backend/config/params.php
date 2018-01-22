@@ -1,7 +1,8 @@
 <?php
 return [
     'adminEmail' => 'admin@example.com',
-    'upload' => [
+
+   'upload' => [
         'web' => 'upload/web',
     ],
 ];

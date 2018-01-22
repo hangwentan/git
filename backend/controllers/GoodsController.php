@@ -10,23 +10,41 @@ use Yii;
 use backend\models\ShopGoods;
 use backend\models\ShopCategory;
 use backend\models\ShopBrand;
+use backend\models\Brand;
+//use backend\models\Brandcate;
+use yii\data\Pagination;
+//use app\models\ShopGoods;
+//use app\models\ShopCategory;
+//use app\models\ShopBrand;
+//use app\common\service\UploadServices;
 class GoodsController extends BaseController
 {  
 
     /**
-     * 商品展示
+     * 商品展示   分页
      * @return [type] [description]
      */
     public function actionIndex()
     {
         $this->layout = 'goods';
-        $data = (new \yii\db\Query())
-            ->from('shop_goods')
-            ->select(['shop_goods.*','shop_category.*','shop_brand.*'])
-            ->leftJoin('shop_category','shop_goods.shop_type=shop_category.id')
-            ->leftJoin('shop_brand','shop_goods.shop_pinpai=shop_brand.id')
+        $shop = new ShopGoods();
+        $shopCount = $shop->find()->count();
+        // $data = (new \yii\db\Query())
+        //     ->from('shop_goods')
+        //     ->select(['shop_goods.*','shop_category.*','shop_brand.*'])
+        //     ->leftJoin('shop_category','shop_goods.shop_type=shop_category.id')
+        //     ->leftJoin('shop_brand','shop_goods.shop_pinpai=shop_brand.id')
+        //     ->all();
+       $arr = $shop->find()->orderBy('shop_id desc');
+       $pages = new Pagination([
+            'totalCount' => $arr->count(),
+            'pageSize'   => 2   
+        ]);
+        $mctheores = $arr->offset($pages->offset)
+            ->limit($pages->limit)
+            ->asArray()
             ->all();
-        return $this->render('goods-list',['data' => $data]);
+        return $this->render('goods-list',['pages'=>$pages,'mctheores'=>$mctheores]);
     }
 
     /*商品添加
@@ -57,19 +75,26 @@ class GoodsController extends BaseController
     public function actionShop(){
         $request=Yii::$app->request;
         $data=[];
-        $data['shop_name']=$request->post('shop_name','');
-        $data['shop_num']=$request->post('shop_num','');
-        $data['shop_type']=$request->post('shop_type','');
-        $data['shop_pinpai']=$request->post('shop_pinpai','');
-        $data['shop_price']=$request->post('shop_price','');
-        $data['shop_cprice']=$request->post('shop_cprice','');
-        $data['shop_desc']=$request->post('shop_desc','');
-        $goods = new ShopGoods();
-        $re=$goods->addUser($data);
-        if($re){
-            $this->redirect('index.php?r=goods/index');
-        }else{
-            $this->redirect('index.php?r=goods/add');
+        $img = $_FILES['shop_img'];
+
+        $res  = UploadServices::upload_file($img['name'],$img['tmp_name'],'web');
+        if($res){
+            $data['shop_name']=$request->post('shop_name','');
+            $data['shop_num']=$request->post('shop_num','');
+            $data['shop_type']=$request->post('shop_type','');
+            $data['shop_pinpai']=$request->post('shop_pinpai','');
+            $data['shop_price']=$request->post('shop_price','');
+            $data['shop_cprice']=$request->post('shop_cprice','');
+            $data['shop_desc']=$request->post('shop_desc','');
+            $data['shop_img']=$res;
+            // print_r($data);die;
+            $goods = new ShopGoods();
+            $re=$goods->addUser($data);
+            if($re){
+                $this->redirect('index.php?r=goods/index');
+            }else{
+                $this->redirect('index.php?r=goods/add');
+            }
         }
     }
 
